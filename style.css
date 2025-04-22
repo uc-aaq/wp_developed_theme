@@ -1,0 +1,22 @@
+/*
+Theme Name: uCertify Blog Theme
+Theme URI: https://www.ucertify.com/
+Author: Aaquib Ahmed
+Author URI: https://www.ucertify.com/
+Description: A custom WordPress theme built from a static HTML design by uCertify. | About Me: Hi, I’m Aaquib Ahmed, a Senior Web Application Developer with over five years of experience. I enjoy building robust and scalable digital solutions that make a difference. I’ve been fortunate to work with modern programming languages and technologies, which I use to create seamless user experiences and reliable applications. My focus is on front-end and back-end development, database optimization, and responsive design—I try my best to pay attention to the details while keeping up with the latest trends. I love turning ideas into reality and feel grateful for the trust others have placed in me as a dependable developer. | Social Media: LinkedIn [https://linkedin.com/in/aaquib-ahmed], Facebook [https://facebook.com/aaquib], Instagram [https://instagram.com/aaquib], WhatsApp [https://wa.me/1234567890], Website [https://www.ucertify.com/]
+Version: 1.1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: uC-theme
+*/
+
+body.admin-bar header {
+    margin-top: 32px;
+}
+
+/* Adjust for mobile screens (admin bar height changes to 46px) */
+@media screen and (max-width: 782px) {
+    body.admin-bar header {
+        margin-top: 46px;
+    }
+}

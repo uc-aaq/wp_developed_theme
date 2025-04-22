@@ -1,0 +1,921 @@
+/* General Styles */
+.ucertify-block-editor {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* uC-Blockquote */
+.uc-blockquote-editor {
+    background: #f0f8ff;
+    padding: 20px;
+    border-left: 5px solid #007cba;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.uc-blockquote-editor .blockquote {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0;
+}
+
+.uc-blockquote-editor .blockquote-footer {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 10px;
+}
+
+.uc-blockquote-editor .blockquote-footer cite {
+    font-style: italic;
+}
+
+/* uC-Table */
+.uc-table-editor .table {
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.uc-table-editor th,
+.uc-table-editor td {
+    padding: 10px;
+    border-bottom: 1px solid #dcdcde;
+    background: #f9f9f9;
+    font-size: 14px;
+}
+
+.uc-table-editor th {
+    background: #e0f7fa;
+    font-weight: bold;
+}
+
+.uc-table-editor .remove-column-btn {
+    background: #ff6b6b;
+    color: #fff;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.2s;
+    border: none;
+}
+
+.uc-table-editor .remove-column-btn:hover {
+    background: #ff4c4c;
+}
+
+.uc-table-editor .components-button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background: #007cba;
+    color: #fff;
+    border-radius: 4px;
+    transition: background 0.2s;
+    border: none;
+}
+
+.uc-table-editor .components-button:hover {
+    background: #005a87;
+}
+
+/* uC Table 2 */
+.uc-table-2-editor .table {
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.uc-table-2-editor th,
+.uc-table-2-editor td {
+    padding: 10px;
+    border-bottom: 1px solid #dcdcde;
+    background: #f9f9f9;
+    font-size: 14px;
+}
+
+.uc-table-2-editor th {
+    background: #d1e7dd;
+    font-weight: bold;
+}
+
+.uc-table-2-editor .remove-column-btn {
+    background: #ff6b6b;
+    color: #fff;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.2s;
+    border: none;
+}
+
+.uc-table-2-editor .remove-column-btn:hover {
+    background: #ff4c4c;
+}
+
+.uc-table-2-editor .components-button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background: #007cba;
+    color: #fff;
+    border-radius: 4px;
+    transition: background 0.2s;
+    border: none;
+}
+
+.uc-table-2-editor .components-button:hover {
+    background: #005a87;
+}
+
+/* uCertify CTA - 1 */
+.uc-cta-editor .card {
+    background: linear-gradient(135deg, #007cba, #00b4d8);
+    padding: 30px;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+}
+
+.uc-cta-editor .text-light {
+    color: #fff !important;
+}
+
+.uc-cta-editor .btn-light {
+    background: #fff;
+    color: #007cba;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+    border: none;
+    display: inline-block;
+}
+
+.uc-cta-editor .btn-light:hover {
+    background: #f0f0f0;
+    color: #005a87;
+}
+
+/* uCertify CTA - 2 */
+.uc-cta-editor .position-relative {
+    background: #f0f0f0;
+    padding: 40px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.uc-cta-editor .lead {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.uc-cta-editor .h1 {
+    font-size: 3em;
+    color: #007cba;
+    margin-bottom: 20px;
+}
+
+.uc-cta-editor .btn-primary {
+    background: #007cba;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.2s;
+    border: none;
+}
+
+.uc-cta-editor .btn-primary:hover {
+    background: #005a87;
+}
+
+/* uCertify CTA - 3 */
+.uc-cta-3-editor .container {
+    background: #e9f7ef;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.uc-cta-3-editor .img-fluid {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #007cba;
+}
+
+.uc-cta-3-editor .components-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #007cba;
+    color: #fff;
+    border-radius: 4px;
+    transition: background 0.2s;
+    border: none;
+}
+
+.uc-cta-3-editor .components-button:hover {
+    background: #005a87;
+}
+
+/* uC Subscription Block */
+.uc-subscription-editor .container {
+    background: #f0f8ff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.uc-subscription-editor .h1 {
+    font-size: 2.5em;
+    color: #007cba;
+    margin-bottom: 15px;
+}
+
+.uc-subscription-editor .fs-sm {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.uc-subscription-editor .form-control {
+    padding: 12px;
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1em;
+}
+
+.uc-subscription-editor .btn-primary {
+    background: #007cba;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    border: none;
+    transition: background 0.2s;
+}
+
+.uc-subscription-editor .btn-primary:hover {
+    background: #005a87;
+}
+
+/* uC-Heading */
+.uc-heading-editor .h2,
+.uc-heading-editor .h3,
+.uc-heading-editor .h4,
+.uc-heading-editor .h5,
+.uc-heading-editor .h6 {
+    margin: 0 0 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.uc-heading-editor .text-gradient-primary {
+    background: linear-gradient(to right, #6366f1, #9333ea);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* uC-Tabs */
+.uc-tabs-editor .nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.uc-tabs-editor .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.uc-tabs-editor .nav-link {
+    padding: 10px 20px;
+    background: #e0f7fa;
+    border: 1px solid #007cba;
+    border-radius: 4px 4px 0 0;
+    text-decoration: none;
+    color: #007cba;
+    font-size: 14px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.uc-tabs-editor .nav-link.active {
+    background: #007cba;
+    color: #fff;
+    font-weight: bold;
+}
+
+.uc-tabs-editor .add-tab-btn {
+    background: #007cba;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+    border: none;
+}
+
+.uc-tabs-editor .add-tab-btn:hover {
+    background: #005a87;
+}
+
+.uc-tabs-editor .remove-tab-btn {
+    margin-left: 10px;
+    color: #ff6b6b;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    background: none;
+}
+
+.uc-tabs-editor .remove-tab-btn:hover {
+    color: #ff4c4c;
+}
+
+.uc-tabs-editor .tab-content {
+    border: 1px solid #dcdcde;
+    padding: 20px;
+    background: #fff;
+    border-radius: 0 4px 4px 4px;
+}
+
+/* uC Steps */
+.uc-steps-editor .steps {
+    margin-bottom: 20px;
+}
+
+.uc-steps-editor .step {
+    position: relative;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #f0f8ff;
+    border: 1px solid #007cba;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.uc-steps-editor .step-number {
+    font-weight: bold;
+    color: #007cba;
+    font-size: 18px;
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: 1px solid #007cba;
+}
+
+.uc-steps-editor .step-body {
+    flex: 1;
+}
+
+.uc-steps-editor .components-button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background: #007cba;
+    color: #fff;
+    border-radius: 4px;
+    transition: background 0.2s;
+    border: none;
+}
+
+.uc-steps-editor .components-button:hover {
+    background: #005a87;
+}
+
+/* uC Pricing Table */
+.uc-pricing-table-editor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.uc-pricing-table-editor .table-responsive-lg {
+    overflow-x: auto;
+    width: 100%;
+}
+
+.uc-pricing-table-editor .row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.uc-pricing-table-editor .col {
+    flex: 1;
+    min-width: 300px;
+}
+
+.uc-pricing-table-editor .card {
+    background: #f0f8ff;
+    border: 1px solid #007cba;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: box-shadow 0.2s;
+}
+
+.uc-pricing-table-editor .card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.uc-pricing-table-editor .card-body {
+    padding: 0;
+}
+
+.uc-pricing-table-editor .d-flex {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.uc-pricing-table-editor .flex-shrink-0 {
+    background: #e0f7fa;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.uc-pricing-table-editor img {
+    max-width: 84px;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid #007cba;
+    border-radius: 4px;
+    transition: opacity 0.2s;
+}
+
+.uc-pricing-table-editor img:hover {
+    opacity: 0.8;
+}
+
+.uc-pricing-table-editor .ps-4 {
+    padding-left: 20px;
+    flex: 1;
+}
+
+.uc-pricing-table-editor h3.components-rich-text {
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: #007cba;
+}
+
+.uc-pricing-table-editor h4.components-rich-text {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.uc-pricing-table-editor span.components-rich-text {
+    font-size: 14px;
+    color: #757575;
+}
+
+.uc-pricing-table-editor ul.list-unstyled {
+    margin: 20px 0;
+    padding: 0;
+}
+
+.uc-pricing-table-editor ul.list-unstyled li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.uc-pricing-table-editor .components-rich-text span {
+    flex: 1;
+    font-size: 14px;
+    color: #333;
+}
+
+.uc-pricing-table-editor .components-button.is-destructive {
+    color: #ff6b6b;
+    border: none;
+    background: none;
+    font-size: 13px;
+    margin-left: 10px;
+    padding: 0;
+}
+
+.uc-pricing-table-editor .components-button.is-destructive:hover {
+    color: #ff4c4c;
+}
+
+.uc-pricing-table-editor .components-button.is-secondary {
+    background: #f0f0f0;
+    border: 1px solid #dcdcde;
+    color: #333;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.uc-pricing-table-editor .components-button.is-secondary:hover {
+    background: #e5e5e5;
+}
+
+.uc-pricing-table-editor .card-footer {
+    padding: 20px 0 0;
+}
+
+.uc-pricing-table-editor a.components-rich-text {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #007cba;
+    border-radius: 4px;
+    color: #007cba;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.uc-pricing-table-editor a.components-rich-text:hover {
+    background: #007cba;
+    color: #fff;
+}
+
+.uc-pricing-table-editor .components-text-control__input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.uc-pricing-table-editor .components-text-control__input:focus {
+    border-color: #007cba;
+    box-shadow: 0 0 0 1px #007cba;
+    outline: none;
+}
+
+.uc-pricing-table-editor .components-button.is-primary {
+    background: #007cba;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-size: 14px;
+    width: 115px;
+}
+
+.uc-pricing-table-editor .components-button.is-primary:hover {
+    background: #005a87;
+}
+
+.uc-pricing-table-editor .components-button.is-primary:disabled,
+.uc-pricing-table-editor .components-button.is-destructive:disabled {
+    background: #a0a0a0;
+    color: #fff;
+    cursor: not-allowed;
+    width: 115px;
+}
+
+/* uC Accordion */
+.uc-accordion-editor .accordion {
+    margin-bottom: 20px;
+}
+
+.uc-accordion-editor .accordion-item {
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.uc-accordion-editor .accordion-header {
+    background: #f0f8ff;
+    padding: 10px;
+    border-bottom: 1px solid #dcdcde;
+}
+
+.uc-accordion-editor .accordion-button {
+    font-size: 1.1em;
+    color: #007cba;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.uc-accordion-editor .accordion-collapse {
+    padding: 10px;
+    background: #fff;
+    font-size: 0.9rem;
+}
+
+/* uC Tabs with Images */
+.uc-tabs-with-images-editor .nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.uc-tabs-with-images-editor .nav-link {
+    padding: 10px 20px;
+    background: #e0f7fa;
+    border: 1px solid #007cba;
+    border-radius: 4px 4px 0 0;
+    color: #007cba;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+}
+
+.uc-tabs-with-images-editor .nav-link.active {
+    background: #007cba;
+    color: #fff;
+}
+
+.uc-tabs-with-images-editor .tab-content-editor {
+    border: 1px solid #dcdcde;
+    padding: 20px;
+    background: #fff;
+    border-radius: 0 4px 4px 4px;
+}
+
+.uc-tabs-with-images-editor .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #007cba;
+    cursor: pointer;
+}
+
+/* uC Pros & uC Cons */
+.uc-pros-editor,
+.uc-cons-editor {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.uc-pros-editor .h6,
+.uc-cons-editor .h6 {
+    font-size: 1.25em;
+    color: #007cba;
+    margin-bottom: 15px;
+}
+
+.uc-pros-editor ul,
+.uc-cons-editor ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.uc-pros-editor li,
+.uc-cons-editor li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.uc-pros-editor .components-button,
+.uc-cons-editor .components-button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    background: #007cba;
+    color: #fff;
+    border-radius: 4px;
+    transition: background 0.2s;
+    border: none;
+}
+
+.uc-pros-editor .components-button:hover,
+.uc-cons-editor .components-button:hover {
+    background: #005a87;
+}
+
+/* uC CEO */
+.uc-ceo-editor {
+    padding: 20px;
+    background: #f0f8ff;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.uc-ceo-editor .blockquote {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0;
+}
+
+.uc-ceo-editor .blockquote-footer {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 10px;
+}
+
+.uc-ceo-editor img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #007cba;
+    cursor: pointer;
+}
+
+/* uC Swiper Section */
+.uc-swiper-section-editor .container {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.uc-swiper-section-editor .swiper-wrapper {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.uc-swiper-section-editor .swiper-slide {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #dcdcde;
+    border-radius: 8px;
+    min-width: 300px;
+}
+
+.uc-swiper-section-editor .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #007cba;
+    cursor: pointer;
+}
+
+.uc-swiper-section-editor .components-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #007cba;
+    color: #fff;
+    border-radius: 4px;
+    transition: background 0.2s;
+    border: none;
+}
+
+.uc-swiper-section-editor .components-button:hover {
+    background: #005a87;
+}
+
+/* uC Info Cards - 1 */
+.uc-info-cards-1-editor .container {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.uc-info-cards-1-editor .card {
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.uc-info-cards-1-editor .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #007cba;
+    cursor: pointer;
+}
+
+.uc-info-cards-1-editor .components-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #007cba;
+    color: #fff;
+    border-radius: 4px;
+    transition: background 0.2s;
+    border: none;
+}
+
+.uc-info-cards-1-editor .components-button:hover {
+    background: #005a87;
+}
+
+/* uC Block Table */
+.uc-block-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.uc-block-table th,
+.uc-block-table td {
+    border-right: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+    padding: 10px;
+}
+
+.uc-block-table th:last-child,
+.uc-block-table td:last-child {
+    border-right: none;
+}
+
+.uc-block-table tr:last-child td {
+    border-bottom: none;
+}
+
+.uc-block-table th:nth-child(odd),
+.uc-block-table td:nth-child(odd) {
+    background-color: #f1f3f5 !important;
+}
+
+.uc-block-table th:nth-child(even),
+.uc-block-table td:nth-child(even) {
+    background-color: transparent;
+}
+
+.uc-block-table th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.uc-block-table th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.uc-block-table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+.uc-block-table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+/* Slimmer Dropdowns for Included/Excluded */
+select {
+    padding: 6px !important;
+    font-size: 12px !important;
+    height: 30px !important;
+    border: 1px solid #007cba !important;
+    border-radius: 4px !important;
+    background: #fff !important;
+    color: #333 !important;
+    cursor: pointer !important;
+    appearance: none !important;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="%23007cba"><polygon points="0,0 10,0 5,5"/></svg>') !important;
+    background-repeat: no-repeat !important;
+    background-position: right 8px center !important;
+}
+
+select:focus {
+    border-color: #005a87 !important;
+    box-shadow: 0 0 0 1px #005a87 !important;
+    outline: none !important;
+}
+
+/* Media Queries */
+@media (max-width: 782px) {
+    .uc-pricing-table-editor .row {
+        flex-wrap: wrap;
+    }
+
+    .uc-pricing-table-editor .col {
+        min-width: 100%;
+    }
+
+    .uc-pricing-table-editor .card {
+        margin-bottom: 20px;
+    }
+
+    .uc-tabs-editor .nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .uc-tabs-editor .nav-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
